@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+
+li a,
+.header-phone,
+.callback {
+    text-decoration: none;
+}
+
+.header {
+    border: 1px solid #000;
+    display: block;
+}
+
+.header-logo {
+    border: 1px solid #000;
+}
+
+.header-wrapper {
+    display: flex;
+    position: absolute;
+    width: 1920px;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFF;
+    display: flex;
+    border: 1px solid #a80202;
+}
+
+.header-menu {
+    display: flex;
+    width: 1240px;
+    margin: auto;
+    border: 1px solid #02a834;
+    justify-content: space-between;
+}
+
+
+
+.header-menu-list {
+    display: flex;
+    list-style: none;
+    border: 1px solid #4a02a8;
+    padding-left: 0;
+    width: 700px;
+    justify-content: space-between;
+}
+
+
+
+.header-menu-list a{
+    color: #2E2E2E;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    
+}
+
+.visited:visited {
+    color: #2E2E2E;
+} 
+
+.hover-red:hover {
+    color: #DE3726;
+    font-weight: 500;
+}
+
+.header-contacts {
+    
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #000000;
+    align-items: stretch;
+}
+
+.header-contacts img {
+    padding-top: 3px;
+}
+
+.header-phone {
+    width: 176px;
+    height: 24px;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1B1B1B;
+}
+
+.callback {
+    width: 140px;
+    height: 20px;
+    margin-left: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #E93324;
+    border-bottom: 1.5px solid #E93324;
+}
+
+.banner-main {
+    display: block;
+    position: absolute;
+    width: 1920px;
+    height: 648px;
+    left: 0px;
+    top: 85px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/015d/0398/6419097a4abd4d0c912f6f61d517cdce?Expires=1612742400&Signature=U53Jzs5qeJVfEtGRLYQk~rHuvUftaBxjtkHpdGJMvIpibnd8TijNBs5N8kdOPA~iVZByC9dipN55Qbe3f5LtjXdw5qkqvf41R9yFLHiuqeeutU8BttvWJaGNx4mKkKqu4vVrSphedx8MR1pVeMwPFzGhkUJ~CFhmzLsPJE2PpELDEM94tA0lSoQL6QtDJtI6dVQobmZX1ZQk07ealLCtNML9S3lZKlJoqx8bgAsRq6KR7fYVwJDb0Vc4DkGv~qOH-TuT0M6t4r3DSxhoYrVb30TQSmC~HHt3gTJeFuRMCTj9JeP393QCpQbSCYU0F0JJwHvUc-C49H~mkfcGo6LTog__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    
+}
+
+.header-text1 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
