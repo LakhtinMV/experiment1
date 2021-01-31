@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+
+li a,
+.header-phone,
+.callback {
+    text-decoration: none;
+}
+
+.header {
+    border: 1px solid #000;
+}
+
+.header-logo {
+    border: 1px solid #000;
+}
+
+.header-wrapper {
+    display: flex;
+    position: absolute;
+    width: 1920px;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFF;
+    display: flex;
+    border: 1px solid #a80202;
+}
+
+.header-menu {
+    display: flex;
+    
+    margin: auto;
+    border: 1px solid #a80202;
+}
+
+
+
+.header-menu-list {
+    display: flex;
+    list-style: none;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2E2E2E;
+    }
+
+.header-menu-list li {
+    margin-right: 20px;
+}
+
+.visited:visited {
+    color: #2E2E2E;
+} 
+
+.hover-red:hover {
+    color: #DE3726;
+    font-weight: 500;
+}
+
+.header-contacts {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #000000;
+}
+
+.header-contacts img {
+    padding-top: 3px;
+}
+
+.header-phone {
+    width: 176px;
+    height: 24px;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+   
+    color: #1B1B1B;
+}
+
+.callback {
+    width: 140px;
+    height: 20px;
+    margin-left: auto;
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #E93324;
+    border-bottom: 2px solid #E93324;
+    
+}
