@@ -10,7 +10,6 @@ li a,
 
 .header {
     border: 1px solid #000;
-    padding-top: 15px;
 }
 
 .header-logo {
@@ -21,6 +20,7 @@ li a,
     display: flex;
     width: 1240px;
     margin: auto;
+    margin-top: 15px;
     margin-bottom: 15px;
     border: 1px solid #02a834;
     justify-content: space-between;
@@ -60,25 +60,27 @@ li a,
 .header-contacts {
     width: 200px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
     border: 1px solid #000000;
-    align-items: stretch;
 }
 
-.header-contacts img {
-    padding-top: 3px;
+.icon-phone-block img {
+    transform: translateY(1px) translateX(-6px) scale(1.1);
+}
+
+.icon-phone-block {
+    margin-left: auto;
 }
 
 .header-phone {
-    width: 176px;
-    height: 24px;
-    margin-left: auto;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     color: #1B1B1B;
+    
 }
 
 .callback {
@@ -119,7 +121,6 @@ li a,
     width: 1240px;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .header-text1 {
@@ -132,7 +133,7 @@ li a,
     color: #FFFFFF;
 }
 .header-text2 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 52px;
