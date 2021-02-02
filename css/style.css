@@ -106,10 +106,14 @@ li a,
 .layout-positioner {
     display: flex;
     height: 648px;
-    border: 2px dashed #3498db;
     width: 1240px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .header-text1 {
@@ -127,7 +131,7 @@ li a,
     font-weight: bold;
     font-size: 52px;
     line-height: 54px;
-    /* or 104% */
+    
     color: #FFFFFF;
 }
 
@@ -137,24 +141,35 @@ li a,
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
-    /* or 133% */
+   
     color: #FFFFFF;
 }
 
 .banner-btn {
-    color: #fff; /* цвет текста */
-    text-decoration: none; /* убирать подчёркивание у ссылок */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
-    user-select: none; /* убирать выделение текста */
+    color: #FFFFFF;
+    user-select: none;
+    width: 240px;
+    height: 58px;
+    text-decoration: none;
     background: #DE3726;
-    padding: .7em 1em; /* отступ от текста */
-    outline: none; /* убирать контур в Mozilla */
+    border-radius: 5px;
+    margin-top: 30px;
   } 
 
   .banner-btn-block {margin-top: 50px;}
 
-  a.banner-btn:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
-  a.banner-btn:active { background: rgb(152,15,0); } /* при нажатии */
+  .banner-btn:hover { background: rgb(232,95,76); } 
+  .banner-btn:active { background: rgb(152,15,0); } 
 
   .banner-text-flex {
       display: flex;
@@ -162,5 +177,4 @@ li a,
       width: 560px;
       flex-wrap: wrap;
       justify-content: center;
-      border: 1px solid black;
   }
