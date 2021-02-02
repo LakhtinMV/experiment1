@@ -8,44 +8,27 @@ li a,
     text-decoration: none;
 }
 
-.header {
-    border: 1px solid #000;
-}
-
-.header-logo {
-    border: 1px solid #000;
-}
-
 .header-menu {
     display: flex;
     width: 1240px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    border: 1px solid #02a834;
     justify-content: space-between;
 }
 
 
 
 .header-menu-list {
-    display: flex;
-    list-style: none;
-    border: 1px solid #4a02a8;
-    padding-left: 0;
-    width: 700px;
-    justify-content: space-between;
-}
-
-
-
-.menu-text{
     color: #2E2E2E;
     font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 18px;
+    width: 700px;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-between;1
 }
 
 .menu-text:visited { color: #2E2E2E; }
@@ -62,12 +45,9 @@ li a,
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 1px solid #000000;
 }
 
-.icon-phone-block img {
-    transform: translateY(1px) translateX(-6px) scale(1.1);
-}
+
 
 .icon-phone-block {
     margin-left: auto;
@@ -81,6 +61,15 @@ li a,
     line-height: 24px;
     color: #1B1B1B;
     
+}
+.header-phone .icon {
+    position: relative;
+    top: 1px;
+    right: 6px;
+    transition: all 0.4s ease-in-out;
+}
+.header-phone:hover .icon {
+    transform: scale(1.2);
 }
 
 .callback {
